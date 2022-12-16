@@ -26,6 +26,7 @@ const App = () => {
     fetchData("batman");
   }, []);
 
+
   return (
     <div>
       <h1 className="text-3xl">Search Movies and TV Shows</h1>
@@ -39,7 +40,7 @@ const App = () => {
         />
         {/* Search Icons */}
         <button
-          onClick={() => fetchData(search)}
+          onClick={() => fetchData(search)} Changed Due to Pagination
           className="p-2.5 ml-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
