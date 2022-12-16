@@ -2,7 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 // location.state contains movie title
-const URL = "http://www.omdbapi.com/?apikey=c26f8893";
+const URL = "https://www.omdbapi.com/?apikey=c26f8893";
 
 const Details = () => {
   const location = useLocation();

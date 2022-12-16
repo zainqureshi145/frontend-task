@@ -4,7 +4,7 @@ import Card from "./components/Card";
 
 // API Key OMDB API = c26f8893
 
-const URL = "http://www.omdbapi.com/?apikey=c26f8893";
+const URL = "https://www.omdbapi.com/?apikey=c26f8893";
 
 const App = () => {
   // Movie State
