@@ -84,3 +84,6 @@ Install React Router DOM
 ```bash
 npm i react-router-dom
 ```
+
+## Thanks
+I want to thank Devgate for this opportunity!
